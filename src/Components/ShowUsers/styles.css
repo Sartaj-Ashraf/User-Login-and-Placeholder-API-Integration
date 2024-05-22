@@ -1,0 +1,18 @@
+.table-actions {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+td input[type='text'] {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #b6b6b6;
+}
+
+
+tr:nth-child(odd) td input[type='text'] {
+    background-color: var(--light-bg);
+}

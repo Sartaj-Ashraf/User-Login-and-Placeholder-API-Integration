@@ -1,0 +1,41 @@
+.search-items {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.search-items input[type="text"] {
+  width: 40%;
+  padding: 0.5rem;
+  border: 0.06rem solid #ccc;
+  border-radius: 0.1rem; 
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.search-items button {
+  padding: 0.3rem 0.6rem; 
+  cursor: pointer;
+}
+.search-items button:hover {
+  background-color: var(--success);
+  color: var(--light);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 0.06rem solid #ddd; 
+  padding: 0.5rem; 
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: #b6b6b6;
+}
