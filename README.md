@@ -1,8 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project showcases a seamless user login system with secure data storage in the browser's local storage. 
+Upon successful login, users are redirected to a dynamic page where a table of content is fetched from a placeholder API and displayed. 
+The mini-project emphasizes clean and efficient data handling, ensuring a smooth user experience. Built with ReactJS.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
